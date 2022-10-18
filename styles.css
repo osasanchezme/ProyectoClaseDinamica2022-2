@@ -3,3 +3,30 @@ h2 {
     background-color: red;
     text-align: right;
 }
+
+#app-container {
+    background-color: red;
+    /* height: 100%;
+    width: 100%; */
+    height: 100vh; /*vh - viewport height*/
+    width: 100vw;
+}
+
+#left-container {
+    background-color: aquamarine;
+    height: 100%;
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+
+#right-container {
+    background-color: blue;
+    height: 100%;
+    width: 80%;
+    float: left;
+}
+
+.ui.input {
+    width: 100%;    
+}
