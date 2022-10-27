@@ -18,6 +18,7 @@ h2 {
     width: 20%;
     float: left;
     padding: 10px;
+    background-image: url(./img/background-blue.png);
 }
 
 #right-container {
@@ -25,6 +26,7 @@ h2 {
     height: 100%;
     width: 80%;
     float: left;
+    background-image: url(./img/background-white.png);
 }
 
 .ui.input {
