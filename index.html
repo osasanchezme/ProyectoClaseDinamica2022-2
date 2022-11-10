@@ -21,14 +21,38 @@
 
       <form class="ui form">
         <div class="field">
-          <label>Altura escalón (m)</label>
-          <input type="text" name="first-name" placeholder="Ingresar número">
+          <label>Velocidad Inicial (m/s)</label>
+          <input type="text" id="v0" placeholder="Ingresar número">
         </div>
         <div class="field">
-          <label>Longitud escalón (m)</label>
-          <input type="text" name="first-name" placeholder="Ingresar número">
+          <label>Inclinación inicial - &alpha; (&deg;)</label>
+          <input type="text" id="alpha" placeholder="Ingresar número">
         </div>
-        <button class="ui button" type="submit">Graficar</button>
+        <div class="field">
+          <label>Reducc. velocidad vertical - k (adim)</label>
+          <input type="text" id="k" placeholder="Ingresar número">
+        </div>
+        <div class="field">
+          <label>Altura escalón - H (m)</label>
+          <input type="text" id="H" placeholder="Ingresar número">
+        </div>
+        <div class="field">
+          <label>Longitud escalón - L (m)</label>
+          <input type="text" id="L" placeholder="Ingresar número">
+        </div>
+        <div class="field">
+          <label>Abscisa inicial - do (m)</label>
+          <input type="text" id="do" placeholder="Ingresar número">
+        </div>
+        <div class="field">
+          <label>Número de escalones (adim)</label>
+          <input type="text" id="n_esc" placeholder="Ingresar número">
+        </div>
+        <div class="field">
+          <label>Número de iteraciones (adim)</label>
+          <input type="text" id="n_iter" placeholder="Ingresar número">
+        </div>
+        <button class="ui button" id="plot_btn" type="submit">Graficar</button>
       </form>
 
     </div>
@@ -36,6 +60,7 @@
 
     </div>
   </div>
+  <script src="app.js"></script>
     <!-- <h1 style="text-align: center;">Este es un h1</h1>
     <button>Follow</button>
     <button class="ui labeled icon button">
